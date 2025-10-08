@@ -21,10 +21,24 @@ null = false
 */
 
 
-number = 2;
-console.log(typeof number);
+// number = 2;
+// console.log(typeof number);
 
-string_conversion = String(number)
-console.log(typeof string_conversion);
+// string_conversion = String(number)
+// console.log(typeof string_conversion);
 
 
+                    //   ***************operations**************
+
+// console.log("1" +1)
+// console.log(1+1)
+// console.log(1 +1 + "1")
+// console.log("1" +1 +1)
+// console.log(1+(1/1) -1)
+// console.log(+true)
+// console.log(+false)
+// console.log(true)
+
+let counter = 10;
+++counter;
+console.log(counter);
