@@ -1,12 +1,82 @@
-                    //   +++++++++++++primitive datatype+++++++++
+// *********************🧩 1️⃣ Primitive Data Types ******************************
+// ✅ Examples:
 
-//7 types of primitive datatypes:-
+// Number, String, Boolean, Null, Undefined, Symbol, BigInt
 
-//string, boolean, null, undefined, symbol, number, bigint
+// 🧠 How they work (accurate explanation):
 
-                        // +++++++Non-primitive(reference type) datatype+++++++++
-            
-// Array, Objects, Funcions
+// When you assign a primitive value to a variable:
+
+// let a = 42;
+
+
+// The value 42 is stored in a specific memory location inside the call stack (a fast, fixed-size memory area).
+
+// The variable a holds a reference to that memory location.
+
+// Primitive values are immutable — you can’t modify the actual value stored at that memory location.
+
+// If you assign a new value to the same variable:
+
+// a = 50;
+
+
+// JavaScript allocates a new memory location in the stack for 50,
+// and makes a point to this new location.
+
+// The old value (42) becomes unused and is later removed by the garbage collector.
+
+// 🧩 Summary of primitives:
+
+// Stored in: Stack
+
+// Copied by value
+
+// Immutable
+
+// Fast access and cleanup
+
+// *****************🧱 2️⃣ Non-Primitive Data Types ****************************
+// ✅ Examples:
+
+// Object, Array, Function, Date, etc.
+
+// 🧠 How they work (accurate explanation):
+
+// When you assign a non-primitive value (like an object or array):
+
+// let person = { name: "Kapil" };
+
+
+// The object { name: "Kapil" } is stored in the heap memory, which is used for dynamic and variable-sized data.
+
+// The variable person (which lives in the stack) stores a reference (pointer) to that object’s location in the heap.
+
+// When you modify the object:
+
+// person.name = "Rahul";
+
+
+// you’re not changing the reference — you’re modifying the data inside the heap object.
+
+// If you assign the variable to another one:
+
+// let person2 = person;
+
+
+// both variables point to the same heap memory address, so a change via one affects the other.
+
+// 🧩 Summary of non-primitives:
+
+// Stored in: Heap (actual value)
+
+// Stack (reference pointer)
+
+// Copied by reference
+
+// Mutable
+
+// Flexible but slightly slower
 
 
         //   +++++++++++Static programming++++++++++++
