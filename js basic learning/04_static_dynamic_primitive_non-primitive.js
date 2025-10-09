@@ -2,6 +2,17 @@
 // ✅ Examples:
 
 // Number, String, Boolean, Null, Undefined, Symbol, BigInt
+const number = 2; //number
+let userName ="kapil";  //string
+const isMarried  =false;  //boolean
+let userEmail; //undefined
+const userAge = null;  //null
+
+const value =Symbol("123");  //symbol
+const value2 = Symbol("123");
+console.log(value ===value2); //because symbol is unique , so it will give  false even they seem as same..
+const bigInteger = 122343545345453n;  //bigint
+console.log(typeof bigInteger)
 
 // 🧠 How they work (accurate explanation):
 
@@ -106,6 +117,8 @@ Example: -
 Javascript, python , ruby,  php
 */
 
+//  *************************note*************
+// In JavaScript, an instance is a specific object created from a constructor function or class. It contains its own properties but shares methods and behaviors from the constructor’s prototype. Using the instanceof operator, we can check whether an object is an instance of a particular constructor or class.
 
 
 
